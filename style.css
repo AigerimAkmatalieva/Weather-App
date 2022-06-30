@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  margin: 2rem auto;
+  font-family: 'Lobster', cursive;
+  background-color: rgb(78, 163, 233);
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  margin: 30px 30px ;
+}
+#city {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#temp {
+  font-size: 3rem;
+}
+
+#country {
+  font-size: 1.5rem;
+  color: rgb(14, 93, 112);
+}
+
+#descrip {
+  font-size: 1.4rem;
+  color: rgb(14, 93, 112);
+}
+
+input {
+  padding: .5rem;
+  border: none;
+  border-top-left-radius: .4rem;
+  border-bottom-left-radius: .4rem;
+}
+
+button {
+  background-color: rgb(31, 173, 230);
+  color: white;
+  border: none;
+  padding: .5rem;
+  margin-left: -.2rem;
+  border-top-right-radius: .4rem;
+  border-bottom-right-radius: .4rem;
+} 
+.wrapper {
+  margin: 50px 0;
+  line-height: 80px;
+}
